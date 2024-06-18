@@ -15,6 +15,6 @@ import {MatButtonModule} from '@angular/material/button';
     constructor() {}
 
     randomize(){
-        
+        //TODO: Du kannst das spiel neustarten
     }
   }

@@ -1,5 +1,15 @@
 <mat-card>
   <img [src]="img" *ngIf="open">
-  <img src="card-back.jpg" *ngIf="!open">
+  <!-- TODO: Add an image when the memmory card is closed. You can find an image called "card-back.jpg" in the asset folder.
+   If you want you can also use your own image. Just make sure the image is only shown when the variable open is false.
+    --> 
 
 </mat-card>
+
+<style>
+  mat-card{
+    background-color: black;
+    min-width: 200px;
+    min-height: 200px;
+  }
+</style>
