@@ -1,35 +1,35 @@
 export const initialState = [
     {
       id: 1,
-      picture: "original_1.webp",
+      picture: "original_1.jpg",
       connectedId: 12,
       open: false,
       forcedState:false
     },
     {
       id: 2,
-      picture: "original_2.webp",
+      picture: "original_2.jpg",
       connectedId: 11,
       open: false,
       forcedState:false
     },
     {
       id: 3,
-      picture: "original_3.webp",
+      picture: "original_3.jpg",
       connectedId: 10,
       open: false,
       forcedState:false
     },
     {
       id: 4,
-      picture: "original_4.webp",
+      picture: "original_4.jpg",
       connectedId: 9,
       open: false,
       forcedState:false
     },
     {
       id: 5,
-      picture: "original_5.webp",
+      picture: "original_5.jpg",
       connectedId: 8,
       open: false,
       forcedState:false
@@ -50,35 +50,35 @@ export const initialState = [
     },
     {
       id: 8,
-      picture: "original_5.webp",
+      picture: "original_5.jpg",
       connectedId: 5,
       open: false,
       forcedState:false
     },
     {
       id: 9,
-      picture: "original_4.webp",
+      picture: "original_4.jpg",
       connectedId: 4,
       open: false,
       forcedState:false
     },
     {
       id: 10,
-      picture: "original_3.webp",
+      picture: "original_3.jpg",
       connectedId: 3,
       open: false,
       forcedState:false
     },
     {
       id: 11,
-      picture: "original_2.webp",
+      picture: "original_2.jpg",
       connectedId: 2,
       open: false,
       forcedState:false
     },
     {
       id: 12,
-      picture: "original_1.webp",
+      picture: "original_1.jpg",
       connectedId: 1,
       open: false,
       forcedState:false
