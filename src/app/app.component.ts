@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { MatButton } from '@angular/material/button';
 import { MatToolbar } from '@angular/material/toolbar';
 import { MatDialog } from '@angular/material/dialog';
-import { memoryComponent } from './memory/memory.component';
+import { MemoryComponent } from './memory/memory.component';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
 import { WinDialog } from './win-dialog/win-dialog.component';
@@ -21,7 +21,7 @@ type Card = {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatButton, MatToolbar, memoryComponent, CommonModule, MatButtonModule],
+  imports: [RouterOutlet, MatButton, MatToolbar, MemoryComponent, CommonModule, MatButtonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

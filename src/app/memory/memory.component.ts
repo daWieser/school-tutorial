@@ -12,7 +12,7 @@ import { CommonModule } from '@angular/common';
   imports: [RouterOutlet, MatButton, MatCardModule, MatRadioModule, FormsModule, CommonModule],
   templateUrl: "./memory.component.html"
 })
-export class memoryComponent {
+export class MemoryComponent {
   @Input() img = ""
 
   @Input() open = true;
