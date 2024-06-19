@@ -1,21 +1,21 @@
 export const initialState = [
     {
       id: 1,
-      picture: "original_1.jpg",
+      picture: "original_7.jpg",
       connectedId: 12,
       open: false,
       forcedState:false
     },
     {
       id: 2,
-      picture: "original_2.jpg",
+      picture: "original_8.jpg",
       connectedId: 11,
       open: false,
       forcedState:false
     },
     {
       id: 3,
-      picture: "original_3.jpg",
+      picture: "original_9.jpg",
       connectedId: 10,
       open: false,
       forcedState:false
@@ -36,14 +36,14 @@ export const initialState = [
     },
     {
       id: 6,
-      picture: "original_6.webp",
+      picture: "original_6.jpg",
       connectedId: 7,
       open: false,
       forcedState:false
     },
     {
       id: 7,
-      picture: "original_6.webp",
+      picture: "original_6.jpg",
       connectedId: 6,
       open: false,
       forcedState:false
@@ -64,21 +64,21 @@ export const initialState = [
     },
     {
       id: 10,
-      picture: "original_3.jpg",
+      picture: "original_9.jpg",
       connectedId: 3,
       open: false,
       forcedState:false
     },
     {
       id: 11,
-      picture: "original_2.jpg",
+      picture: "original_8.jpg",
       connectedId: 2,
       open: false,
       forcedState:false
     },
     {
       id: 12,
-      picture: "original_1.jpg",
+      picture: "original_7.jpg",
       connectedId: 1,
       open: false,
       forcedState:false
