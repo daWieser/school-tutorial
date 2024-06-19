@@ -1,6 +1,6 @@
 <div class="container">
     <!-- TODO: Make sure that the open(card) function is called when the button is pressed. For this either use the (pointerdown) or (click) functionality -->
-    <app-memmory *ngFor="let card of memmoryState " [img]="card.picture" [open]="card.open">
-    </app-memmory> 
+    <app-memory *ngFor="let card of memoryState " [img]="card.picture" [open]="card.open">
+    </app-memory> 
 </div>
 <router-outlet />

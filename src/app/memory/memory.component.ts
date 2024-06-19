@@ -7,12 +7,12 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-memmory',
+  selector: 'app-memory',
   standalone: true,
   imports: [RouterOutlet, MatButton, MatCardModule, MatRadioModule, FormsModule, CommonModule],
-  templateUrl: "./memmory.component.html"
+  templateUrl: "./memory.component.html"
 })
-export class MemmoryComponent {
+export class memoryComponent {
   @Input() img = ""
 
   @Input() open = true;

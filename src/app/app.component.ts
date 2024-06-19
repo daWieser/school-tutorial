@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { MatButton } from '@angular/material/button';
 import { MatToolbar } from '@angular/material/toolbar';
 import { MatDialog } from '@angular/material/dialog';
-import { MemmoryComponent } from './memmory/memmory.component';
+import { memoryComponent } from './memory/memory.component';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
 import { WinDialog } from './win-dialog/win-dialog.component';
@@ -21,7 +21,7 @@ type Card = {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatButton, MatToolbar, MemmoryComponent, CommonModule, MatButtonModule],
+  imports: [RouterOutlet, MatButton, MatToolbar, memoryComponent, CommonModule, MatButtonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -30,7 +30,7 @@ export class AppComponent {
 
   currentlyOpen: Card | undefined = undefined;
 
-  memmoryState: Card[] = [...initialState];
+  memoryState: Card[] = [...initialState];
 
   constructor(public dialog: MatDialog) {}
 
@@ -63,7 +63,7 @@ export class AppComponent {
       current.open = true;
       this.currentlyOpen = current;
     }
-    if(this.memmoryState.filter(value => !value.open).length == 0   )
+    if(this.memoryState.filter(value => !value.open).length == 0   )
       setTimeout(() => {
         this.openDialog()
       }, 1000);
